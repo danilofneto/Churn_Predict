@@ -1,5 +1,7 @@
 # Churn predict
 
+![image](/references/Churn.png)
+
 ## Churn predict
 
 #### This project was made by Danilo Felipe Neto.
@@ -68,7 +70,7 @@ The initial DataSet has 10000 rows and 14 columns. The features are the followin
 **Step 09. Convert Model Performance to Business Values:** The models performance is converted into business values.
 
 **Step 10. Deploy Modelo to Production:** The model is deployed on a cloud environment to make possible that other stakeholders and services access its results. The model was incorporated into a google spreadsheet where it predicts the percentage of customers going into churn.
-![image](references\google-sheets.PNG)
+![image](/references/google-sheets.PNG)
 
 
 # 4. Top 3 Data Insights
@@ -76,17 +78,17 @@ The initial DataSet has 10000 rows and 14 columns. The features are the followin
 **Hypothesis 01:** Younger customers tend to leave the bank easier.
 
 **False:** Customers between 40 and 60 are more likely to churn.
-![image](references\H1.png)
+![image](/references/H1.png)
 
 **Hypothesis 02:** Customers with fewer products tend to leave the bank easier.
 
 **True:** People with 3 and 4 products are less likely to churn.
-![image](references\H2.png)
+![image](/references/H2.png)
 
 **Hypothesis 03:** Customers without credit cards are more likely to churn.
 
 **False.:** Customers with credit card are more likely to churn.
-![image](references\H3.png)
+![image](/references/H3.png)
 
 # 5. Machine Learning Model Applied
 The following machine learning models were trained:
@@ -97,8 +99,8 @@ The following machine learning models were trained:
 
 # 6. Machine Learning Modelo Performance
 The chosen model was **XGBoost Classifier** because it have the better recall score(TP/TP+FN).
-![image](references\model-performance.PNG)
-![image](references\model-performance-ROC.png)
+![image](/references/model-performance.PNG)
+![image](/references/model-performance-ROC.png)
 
 
 # 7. Business Results
@@ -110,6 +112,3 @@ After a cupom discount simulation ($100, $50, $25) based on the mean scenarios o
 
 # 8. Next Steps to Improve
 In the next project cycle I will test new machine learning models and improve XGBoost fine tuning. Embed the model in a data visualization tool (Power BI, Tableau, Google Data Studio)
-
-
-
