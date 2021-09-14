@@ -99,6 +99,7 @@ The following machine learning models were trained:
 
 # 6. Machine Learning Modelo Performance
 The chosen model was **XGBoost Classifier** 
+
 ![image](/references/model-performance.PNG)
 ![image](/references/model-performance-ROC.png)
 
