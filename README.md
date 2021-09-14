@@ -98,7 +98,7 @@ The following machine learning models were trained:
 * Random Forest
 
 # 6. Machine Learning Modelo Performance
-The chosen model was **XGBoost Classifier** because it have the better recall score(TP/TP+FN).
+The chosen model was **XGBoost Classifier** 
 ![image](/references/model-performance.PNG)
 ![image](/references/model-performance-ROC.png)
 
